@@ -21,18 +21,29 @@ export default function Hero() {
           experiences using React, Tailwind and Framer Motion.
         </p>
 
-        <div className="mt-6 flex gap-4">
+        {/* BUTTONS */}
+        <div className="mt-6 flex flex-wrap gap-4">
           <a
             href="#projects"
             className="px-6 py-3 rounded-full bg-purple-600 hover:bg-purple-700 shadow-lg"
           >
             View Projects
           </a>
+
           <a
             href="#contact"
             className="px-6 py-3 rounded-full border border-white/20 hover:bg-white/10"
           >
             Hire Me
+          </a>
+
+          {/* DOWNLOAD RESUME BUTTON */}
+          <a
+            href="/Pratham-Bagrecha-Resume.pdf"
+            download
+            className="px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 shadow-lg"
+          >
+            Download Resume
           </a>
         </div>
       </motion.div>
