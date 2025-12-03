@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import resumePDF from "../assets/pratham-resume.pdf";
 export default function Hero() {
   return (
     <section className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
@@ -39,8 +39,8 @@ export default function Hero() {
 
           {/* DOWNLOAD RESUME BUTTON */}
           <a
-            href="/Pratham-Bagrecha-Resume.pdf"
-            download
+            href={resumePDF}
+            download="Pratham-Resume.pdf"
             className="px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 shadow-lg"
           >
             Download Resume

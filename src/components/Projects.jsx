@@ -31,7 +31,7 @@ const projects = [
     title: "Airbnb Clone",
     desc: "A modern Airbnb UI/UX clone with responsive design.",
     tech: ["React", "Tailwind"],
-    github: "https://github.com/your-username/airbnb-clone",
+    github: "https://github.com/PrathamHub/Airbnb-clone",
     live: "",
   },
   {
